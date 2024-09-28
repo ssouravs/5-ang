@@ -1,0 +1,33 @@
+.back {
+    margin-bottom: 1rem;
+    width: 6rem;
+    font-size: small;
+    padding: 0.75rem 2rem;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back:hover {
+    width: 6rem;
+    background-color: #45a049;
+}
+
+.title{
+    font-size: xx-large;
+    color: white
+}
+
+.coming{
+    font-size: x-small;
+
+}
+.panchang-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

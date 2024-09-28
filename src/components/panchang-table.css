@@ -1,0 +1,62 @@
+.panchang-table-container {
+    margin: 2rem auto;
+    max-width: 700px;
+    background-color: #2c3e50;
+    padding: 2rem;
+    border-radius: 10px;
+    color: #ecf0f1;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.panchang-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+}
+
+.panchang-table td {
+    padding: 1rem;
+    border: 1px solid #34495e;
+}
+
+.panchang-table tr:nth-child(even) {
+    background-color: #34495e;
+}
+
+.panchang-table td:first-child {
+    font-weight: bold;
+    width: 40%;
+}
+
+.panchang-table td:last-child {
+    text-align: right;
+    width: 60%;
+}
+
+.reset-btn {
+    padding: 0.75rem 1.5rem;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.reset-btn:hover {
+    background-color: #c0392b;
+}
+
+@media (max-width: 768px) {
+    .panchang-table-container {
+        padding: 1rem;
+    }
+
+    .panchang-table td {
+        padding: 0.75rem;
+    }
+
+    .panchang-table td:last-child {
+        text-align: left;
+    }
+}

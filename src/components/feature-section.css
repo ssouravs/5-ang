@@ -1,0 +1,29 @@
+.feature-section {
+    flex: 1;
+    /* Allow the section to take up remaining space */
+    display: flex;
+    flex-direction: column;
+    /* Align panchangs vertically */
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.panchang-box {
+    padding: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.panchang-box:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .feature-section {
+        width: 100%;
+        /* Take full width on smaller screens */
+    }
+}

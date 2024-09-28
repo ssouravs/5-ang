@@ -1,0 +1,15 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  flex-direction: row;
+  /* Initially align items in a row */
+}
+
+@media (max-width: 768px) {
+  .App {
+    flex-direction: column;
+    /* Switch to column layout on smaller screens */
+    align-items: center;
+  }
+}

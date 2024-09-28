@@ -1,0 +1,41 @@
+.text-section-container {
+    flex: 1;
+    padding: 2rem;
+    max-width: 500px;
+    /* Centering the text section for better readability */
+    text-align: left;
+}
+
+.text-title {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    font-weight: bold;
+    text-align: left;
+}
+
+.text {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    /* Improve readability */
+    max-width: 500px;
+    /* Limit width to avoid too much horizontal space */
+    text-align: left;
+    color: #dddddd;
+    /* A bit lighter color for better contrast */
+}
+
+.explore-btn {
+    padding: 0.75rem 2rem;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.explore-btn:hover {
+    background-color: #45a049;
+}
